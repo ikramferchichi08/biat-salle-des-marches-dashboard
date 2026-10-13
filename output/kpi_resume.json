@@ -1,0 +1,235 @@
+{
+  "meta": {
+    "generated_at": "2026-10-13T13:16:31.816260",
+    "source": "Cisco UCCX/CUIC - Communication History Report",
+    "version_pipeline": "1.2",
+    "dedoublonnage_missed": {
+      "dedup_applied": true,
+      "before_count": 50000,
+      "after_count": 5111,
+      "removed_duplicates": 44889,
+      "reduction_rate": 89.78
+    },
+    "reconciliation_missed_vs_received": {
+      "reconciliation_appliquee": true,
+      "tolerance_minutes": 10,
+      "missed_total": 5111,
+      "missed_reconcilies": 931,
+      "missed_reellement_perdus": 4180,
+      "taux_reconciliation": 18.22
+    }
+  },
+  "resume_global": {
+    "total_received": 2675,
+    "total_missed_reellement_perdu": 4180,
+    "total_initiated": 883,
+    "taux_abandon_global": 0.6098,
+    "aht_global_seconds": 95.37,
+    "ringtime_moyen_global_seconds": 30.0,
+    "nombre_jours": 7
+  },
+  "detail_par_jour": [
+    {
+      "jour": "2026-07-17",
+      "volume_received": 0,
+      "volume_missed_reellement_perdu": 0,
+      "volume_missed_avant_dedoublonnage": 0,
+      "volume_missed_apres_dedoublonnage_avant_reconciliation": 0,
+      "volume_initiated": 1,
+      "taux_abandon": null,
+      "taux_abandon_avant_dedoublonnage": null,
+      "taux_abandon_avant_reconciliation": null,
+      "aht_seconds": null,
+      "ringtime_moyen_seconds": null
+    },
+    {
+      "jour": "2026-07-18",
+      "volume_received": 0,
+      "volume_missed_reellement_perdu": 0,
+      "volume_missed_avant_dedoublonnage": 0,
+      "volume_missed_apres_dedoublonnage_avant_reconciliation": 0,
+      "volume_initiated": 3,
+      "taux_abandon": null,
+      "taux_abandon_avant_dedoublonnage": null,
+      "taux_abandon_avant_reconciliation": null,
+      "aht_seconds": null,
+      "ringtime_moyen_seconds": null
+    },
+    {
+      "jour": "2026-07-20",
+      "volume_received": 565,
+      "volume_missed_reellement_perdu": 196,
+      "volume_missed_avant_dedoublonnage": 2481,
+      "volume_missed_apres_dedoublonnage_avant_reconciliation": 239,
+      "volume_initiated": 154,
+      "taux_abandon": 0.2576,
+      "taux_abandon_avant_dedoublonnage": 0.8145,
+      "taux_abandon_avant_reconciliation": 0.2973,
+      "aht_seconds": 90.75,
+      "ringtime_moyen_seconds": 25.05
+    },
+    {
+      "jour": "2026-07-21",
+      "volume_received": 520,
+      "volume_missed_reellement_perdu": 552,
+      "volume_missed_avant_dedoublonnage": 7150,
+      "volume_missed_apres_dedoublonnage_avant_reconciliation": 748,
+      "volume_initiated": 174,
+      "taux_abandon": 0.5149,
+      "taux_abandon_avant_dedoublonnage": 0.9322,
+      "taux_abandon_avant_reconciliation": 0.5899,
+      "aht_seconds": 99.52,
+      "ringtime_moyen_seconds": 26.08
+    },
+    {
+      "jour": "2026-07-22",
+      "volume_received": 495,
+      "volume_missed_reellement_perdu": 569,
+      "volume_missed_avant_dedoublonnage": 7542,
+      "volume_missed_apres_dedoublonnage_avant_reconciliation": 751,
+      "volume_initiated": 137,
+      "taux_abandon": 0.5348,
+      "taux_abandon_avant_dedoublonnage": 0.9384,
+      "taux_abandon_avant_reconciliation": 0.6027,
+      "aht_seconds": 93.87,
+      "ringtime_moyen_seconds": 28.05
+    },
+    {
+      "jour": "2026-07-23",
+      "volume_received": 542,
+      "volume_missed_reellement_perdu": 1179,
+      "volume_missed_avant_dedoublonnage": 13908,
+      "volume_missed_apres_dedoublonnage_avant_reconciliation": 1431,
+      "volume_initiated": 197,
+      "taux_abandon": 0.6851,
+      "taux_abandon_avant_dedoublonnage": 0.9625,
+      "taux_abandon_avant_reconciliation": 0.7253,
+      "aht_seconds": 98.57,
+      "ringtime_moyen_seconds": 30.7
+    },
+    {
+      "jour": "2026-07-24",
+      "volume_received": 553,
+      "volume_missed_reellement_perdu": 1684,
+      "volume_missed_avant_dedoublonnage": 18919,
+      "volume_missed_apres_dedoublonnage_avant_reconciliation": 1942,
+      "volume_initiated": 217,
+      "taux_abandon": 0.7528,
+      "taux_abandon_avant_dedoublonnage": 0.9716,
+      "taux_abandon_avant_reconciliation": 0.7784,
+      "aht_seconds": 94.41,
+      "ringtime_moyen_seconds": 33.96
+    }
+  ],
+  "detail_par_heure": [
+    {
+      "heure": 6,
+      "volume_received": 0,
+      "volume_missed_reellement_perdu": 0,
+      "volume_total_presente": 0,
+      "taux_abandon": null
+    },
+    {
+      "heure": 7,
+      "volume_received": 0,
+      "volume_missed_reellement_perdu": 11,
+      "volume_total_presente": 11,
+      "taux_abandon": 1.0
+    },
+    {
+      "heure": 8,
+      "volume_received": 253,
+      "volume_missed_reellement_perdu": 312,
+      "volume_total_presente": 565,
+      "taux_abandon": 0.5522
+    },
+    {
+      "heure": 9,
+      "volume_received": 551,
+      "volume_missed_reellement_perdu": 708,
+      "volume_total_presente": 1259,
+      "taux_abandon": 0.5624
+    },
+    {
+      "heure": 10,
+      "volume_received": 604,
+      "volume_missed_reellement_perdu": 977,
+      "volume_total_presente": 1581,
+      "taux_abandon": 0.618
+    },
+    {
+      "heure": 11,
+      "volume_received": 621,
+      "volume_missed_reellement_perdu": 1024,
+      "volume_total_presente": 1645,
+      "taux_abandon": 0.6225
+    },
+    {
+      "heure": 12,
+      "volume_received": 490,
+      "volume_missed_reellement_perdu": 786,
+      "volume_total_presente": 1276,
+      "taux_abandon": 0.616
+    },
+    {
+      "heure": 13,
+      "volume_received": 150,
+      "volume_missed_reellement_perdu": 321,
+      "volume_total_presente": 471,
+      "taux_abandon": 0.6815
+    },
+    {
+      "heure": 14,
+      "volume_received": 5,
+      "volume_missed_reellement_perdu": 41,
+      "volume_total_presente": 46,
+      "taux_abandon": 0.8913
+    },
+    {
+      "heure": 15,
+      "volume_received": 1,
+      "volume_missed_reellement_perdu": 0,
+      "volume_total_presente": 1,
+      "taux_abandon": 0.0
+    }
+  ],
+  "sensibilite_fenetre_reconciliation": [
+    {
+      "tolerance_minutes": 3,
+      "missed_reconcilies": 747,
+      "missed_reellement_perdus": 4364,
+      "taux_abandon": 0.62
+    },
+    {
+      "tolerance_minutes": 5,
+      "missed_reconcilies": 845,
+      "missed_reellement_perdus": 4266,
+      "taux_abandon": 0.6146
+    },
+    {
+      "tolerance_minutes": 10,
+      "missed_reconcilies": 931,
+      "missed_reellement_perdus": 4180,
+      "taux_abandon": 0.6098
+    },
+    {
+      "tolerance_minutes": 15,
+      "missed_reconcilies": 974,
+      "missed_reellement_perdus": 4137,
+      "taux_abandon": 0.6073
+    },
+    {
+      "tolerance_minutes": 20,
+      "missed_reconcilies": 1006,
+      "missed_reellement_perdus": 4105,
+      "taux_abandon": 0.6055
+    },
+    {
+      "tolerance_minutes": 30,
+      "missed_reconcilies": 1033,
+      "missed_reellement_perdus": 4078,
+      "taux_abandon": 0.6039
+    }
+  ],
+  "synthese_ia": "Voici la synthèse managériale du trafic d'appels de la Salle des marchés (données issues du rapport Cisco UCCX/CUIC, version pipeline 1.2).\n\n### 1) Résumé exécutif\nL'analyse porte sur une période de 7 jours (du 17 au 24 juillet 2026). Sur un volume brut initial important, un nettoyage rigoureux a été opéré : le dédoublonnage a réduit le volume des appels manqués de 50 000 à 5 111 (soit un taux de réduction de 89,78 %). Après application d'une réconciliation à 10 minutes, on dénombre **4 180 appels réellement perdus** pour **2 675 appels reçus** et **883 appels initiés**. Le taux d'abandon global s'établit à un niveau critique de **60,98 %**, avec un temps de traitement moyen (AHT) de 95,37 secondes et un temps de sonnerie moyen (ringtime) de 30,0 secondes.\n\n### 2) Points clés de la période\n* **Volumes de trafic :** L'activité s'est concentrée sur les jours ouvrés du 20 au 24 juillet 2026 (les 17 et 18 juillet affichant un trafic quasi nul, avec seulement 1 et 3 appels initiés).\n* **Charge journalière :** Le volume des appels reçus s'est stabilisé entre 495 et 565 par jour du 20 au 24 juillet. En revanche, les appels réellement perdus ont fortement progressé au fil de la semaine, passant de 196 (le 20/07) à 1 684 (le 24/07).\n* **Pic horaire :** Le pic de charge se situe entre 10h et 12h, avec des volumes présentés dépassant les 1 580 appels par tranche horaire et des taux d'abandon franchissant les 61 %. \n* **Temps de traitement :** L'AHT global reste stable autour de 95,37 secondes (variant de 90,75s à 99,52s selon les jours).\n\n### 3) Anomalies ou points de vigilance\n* **Taux d'abandon global critique (60,98 %) :** Plus de 6 appels sur 10 ne trouvent pas de réponse. Ce taux connaît une dégradation continue au cours de la semaine, grimpant de 25,76 % le 20 juillet à **75,28 % le 24 juillet**.\n* **Explosion des appels manqués en fin de semaine :** Le volume des appels réellement perdus a été multiplié par plus de 8 entre le lundi 20 juillet (196) et le vendredi 24 juillet (1 684).\n* **Volatilité et tension en milieu de journée :** Dès 13h et 14h, malgré une baisse du volume, le taux d'abandon s'envole (68,15 % et 89,13 %), témoignant d'une rupture probable de la couverture des positions (pauses, effectifs réduits).\n\n### 4) Interprétation métier\nCe profil de trafic met en évidence un **dimensionnement inadapté des ressources** de la Salle des marchés face à la demande, en particulier les mercredis, jeudis et vendredis de la période analysée. L'augmentation conjointe du volume d'appels manqués et du taux d'abandon indique que les opérateurs décrochent insuffisamment ou que la file d'attente est satureé (temps de sonnerie moyen de 30 secondes avant abandon ou décroché). La dégradation de la fin de semaine suggère un effet cumulé de fatigue des équipes ou un sous-effectif chronique sur les créneaux de cotation/marché les plus tendus.\n\n### 5) Recommandations opérationnelles\n* **Ajuster le staffing (plannings) :** Renforcer la présence des opérateurs sur le créneau critique 10h - 13h, et particulièrement en fin de semaine (jeudi et vendredi), où le taux d'abandon dépasse 68 %.\n* **Surveiller la couverture du temps de midi :** Mettre en place des roulements stricts entre 12h et 14h pour éviter le décrochage opérationnel observé (taux d'abandon à 89,13 % à 14h).\n* **Optimiser la gestion des files d'attente :** Analyser le seuil de tolérance des clients (ringtime moyen de 30s) et envisager un message d'accueil dynamique ou un système de rappel (*callback*) si le temps d'attente dépasse une limite acceptable.\n* **Poursuivre l'analyse technique :** Maintenir le pipeline de dédoublonnage et de réconciliation (avec une fenêtre de 10 minutes) pour conserver des indicateurs de pilotage fiables.\n\n### 6) Conclusion courte\nLa Salle des marchés fait face à un niveau d'insatisfaction client critique, matérialisé par un taux d'abandon global de près de 61 % et une nette aggravation en fin de semaine. Une réallocation rapide des effectifs sur les plages horaires de forte affluence (10h-13h) est indispensable pour préserver la qualité de service."
+}
